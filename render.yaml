@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: reconstrect-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: DB_HOST
+        sync: false # Indicates this should be set manually in Render dashboard
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_NAME
+        value: reconstruct
+      - key: DB_PORT
+        value: 3306
+      - key: JWT_SECRET
+        generateValue: true # Automatically generates a secure value
+      - key: CORS_ORIGIN
+        value: "*" # Update this with your frontend URL in production 
