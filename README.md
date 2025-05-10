@@ -20,7 +20,7 @@ Node.js backend API for the Reconstrect Flutter application.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dhanushyangal/reconstrect-api.git
+   git clone https://github.com/Tharak23/reconstrect-api.git
    cd reconstrect-api
    ```
 
@@ -35,11 +35,11 @@ Node.js backend API for the Reconstrect Flutter application.
    PORT=3000
 
    # MySQL Database Configuration (GoDaddy)
-   DB_HOST=sg2plzcpnl508506.prod.sin2.secureserver.net
-   DB_USER=reconstructblog
-   DB_PASSWORD=reconstructblog123!
+   DB_HOST=*********************************
+   DB_USER=**************
+   DB_PASSWORD=*********
    DB_NAME=reconstruct
-   DB_PORT=3306
+   DB_PORT=****
 
    # JWT Secret
    JWT_SECRET=your_jwt_secret_key
